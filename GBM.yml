@@ -1,0 +1,19 @@
+name: CatBoost-Env
+channels:
+  - conda-forge
+  - defaults
+  - pytorch # I don't think so
+dependencies:
+  - python=3.10 # Good till Oct-26
+  - numpy<2
+  - pandas
+  - matplotlib
+  - seaborn
+  - jupyter
+  - scipy
+  - statsmodels
+  - scikit-learn
+  - pytorch
+  - pip
+  - pip:
+      - catboost
